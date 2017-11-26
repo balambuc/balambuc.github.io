@@ -1,0 +1,33 @@
+body {
+    background-color: ghostwhite
+}
+
+nav {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#pic1 {
+    float: right;
+    margin-left: 25px;
+}
+
+#pic2 {
+    float: left;
+    margin-right: 25px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+video {
+    width: 80%;
+    max-height: 400px;
+    margin: 0 auto;
+    display: block
+}

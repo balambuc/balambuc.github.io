@@ -32,3 +32,9 @@ video {
     margin: 0 auto;
     display: block
 }
+
+table, th, td {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 3px;
+}

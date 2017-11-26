@@ -1,9 +1,10 @@
 body {
-    background-color: ghostwhite
+    background-color: ghostwhite;
+    padding: 0 30px;
 }
 
 nav {
-  width: 800px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -13,12 +14,12 @@ h1 {
 
 #pic1 {
     float: right;
-    margin-left: 25px;
+    margin: 0 0 25px 25px;
 }
 
 #pic2 {
     float: left;
-    margin-right: 25px;
+    margin: 0 25px 25px 0;
 }
 
 figcaption {

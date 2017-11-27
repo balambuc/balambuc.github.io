@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
     background-color: ghostwhite;
     padding: 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
 }
 
-nav {
-  width: 80%;
-  margin: 0 auto;
+.nav {
+  background-color: #BDBDBF;
+}
+
+#betumeretvalto {
+    float: right;
+    margin-right: 5px;
 }
 
 h1 {
@@ -93,4 +101,15 @@ table, th, td {
 
 h2 {
     margin: 120px 0 20px 0;
+}
+
+form { 
+    text-align: center;
+    margin: 0 auto; 
+    width:85%;
+}
+
+address {
+    margin-top: 20px;
+    text-align: right;
 }

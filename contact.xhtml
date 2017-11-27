@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" >
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/betumeret.js"></script>
+        <title>Google Pixel 2 bemutató - Kapcsolat</title>
+    </head>
+    <body>
+        <div id="betumeretvalto">
+            <button type="button" id="novel">A+</button>
+            <button type="button" id="csokkent">A-</button>
+        </div>
+        <ul class="nav nav-pills">
+            <li><a href="index.html" >Főoldal</a></li>
+            <li><a href="buds.html">Pixel Buds</a></li>
+            <li><a href="home.html" >Home Mini / Max</a></li>
+            <li><a href="clips.html" >Clips</a></li>
+            <li><a href="book.html" >Pixelbook</a></li>
+            <li><a href="pixel2.html" >Pixel 2 / Pixel 2 XL</a></li>
+            <li class="active"><a href="contact.xhtml" >Kapcsolat</a></li>
+        </ul>
+        <form action="mailto:vy9njn@caesar.elte.hu" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Lépj velünk kapcsolatba!</legend>
+                <label for="nev"><strong>Név</strong></label><br/>
+                <input type="text" name="nev" id="nev" size="60"/><br/>
+                <label for="email"><strong>E-mail cím</strong></label><br/>
+                <input type="text" name="email" id="email" size="60"/><br/>
+                <label for="uzenet"><strong>Üzenet</strong></label><br/>
+                <textarea cols="60" rows="10" name="uzenet" id="uzenet" ></textarea> <br/>
+                <label for="hirlevel">Fel szeretnék iratkozni a hírlevélre</label>
+                <input type="checkbox" name="hirlevel" id="hirlevel" value="igen" checked="checked"/>
+                <p>Szeretnél értesülni kedvezményes ajánlatokról?<br/>
+                  <input type="radio" name="ertekeles" id="igen" value="TRUE"/>
+                  <label for="igen">Igen</label>
+                  <input type="radio" name="ertekeles" id="nem" value="FALSE"/>
+                  <label for="nem">Nem</label>
+                </p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Adatok elküldése</legend>
+                <input type="submit" value="Elküld"/>
+                <input type="reset" value="Töröl"/>
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
